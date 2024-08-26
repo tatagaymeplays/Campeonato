@@ -1,0 +1,108 @@
+.navbar {
+  background-color: #004080; 
+}
+
+.navbar-brand img {
+  max-width: 100%; 
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(110, 110, 110) !important; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFD700 !important; 
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}
+
+
+.breadcrumb {
+  background-color: #10e62c; 
+  border-radius: 0.25rem;
+}
+
+.breadcrumb-item a {
+  color: #ffffff; 
+}
+
+.breadcrumb-item.active {
+  color: #6c757d; 
+}
+
+.card {
+  border: none; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-title {
+  color: #004080;
+}
+
+.card-text {
+  color: #555; 
+}
+
+.card img {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+
+.btn-primary {
+  background-color: #004080;
+  border-color: #004080;
+}
+
+.btn-primary:hover {
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+
+
+.accordion .card-header {
+  background-color: #004080; 
+  color: white; 
+}
+
+.accordion .card-header .btn-link {
+  color: white; 
+  text-decoration: none;
+}
+
+.accordion .card-body {
+  background-color: #f8f9fa; 
+}
+
+
+footer.bg-dark {
+  background-color: #343a40 !important; 
+}
+
+footer.bg-dark a {
+  color: #ffffff; 
+}
+
+footer.bg-dark a:hover {
+  color: #c0c0c0; 
+}
+<style>
+  div {
+    text-align: center;
+  }
+</style>
+
+
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+      width: 120px; 
+  }
+
+  .navbar-nav {
+      text-align: center; 
+  }
+}
